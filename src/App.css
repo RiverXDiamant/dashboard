@@ -26,19 +26,16 @@ body {
   margin-top: 80%;
 }
 
-/* Reviews */
-.reviews {
+/* Reviews, Rating, Sentiment Analysis */
+.reviews,
+.average-rating,
+.sentiment-analysis {
   display: flex;
   justify-content: center;
+  text-align: center;
   background-color: blueviolet;
   width: 25%;
   height: 40%;
 }
 
-.average-rating {
-  display: flex;
-  justify-content: center;
-  background-color: blueviolet;
-  width: 25%;
-  height: 40%;
-}
+/* Website Visitors */
