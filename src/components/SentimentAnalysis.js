@@ -1,6 +1,6 @@
 export default function SentimentAnalysis() {
   return (
-    <div className="sentiment">
+    <div className="sentiment-count">
       <h3>Sentiment Analysis</h3>
       <p>960</p>
       <p>122</p>
