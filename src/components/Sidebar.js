@@ -1,6 +1,6 @@
 export default function Sidebar() {
   return (
-    <div className="sidebar">
+    <div className="sidebar-list">
       <p>Dashboard</p>
       <p>Widget</p>
       <p>Reviews</p>
