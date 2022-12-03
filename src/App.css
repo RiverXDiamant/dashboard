@@ -8,7 +8,8 @@ body {
 /* Container */
 .container {
   display: flex;
-  background-color: black;
+
+  background-color: antiquewhite;
   width: 95vw;
   height: 95vh;
 }
@@ -34,8 +35,18 @@ body {
   justify-content: center;
   text-align: center;
   background-color: blueviolet;
+  margin-left: 2%;
   width: 25%;
   height: 40%;
 }
 
 /* Website Visitors */
+
+.website-visitors {
+  display: flex;
+  background-color: coral;
+  margin-top: 23%;
+  margin-left: -79%;
+  width: 79%;
+  height: 55%;
+}
