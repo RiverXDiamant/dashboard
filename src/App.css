@@ -1,12 +1,22 @@
 body {
+  display: flex;
+  justify-content: center;
   margin-top: 20px;
   background-color: antiquewhite;
 }
 
+/* Container */
+.container {
+  display: flex;
+  background-color: black;
+  width: 95vw;
+  height: 95vh;
+}
+
+/* Sidebar */
 .dashboard {
   display: flex;
   justify-content: center;
-  margin-left: 15px;
   background-color: aqua;
   width: 15vw;
   height: 95vh;
@@ -15,6 +25,20 @@ body {
 .sidebar {
   margin-top: 80%;
 }
+
+/* Reviews */
 .reviews {
+  display: flex;
+  justify-content: center;
   background-color: blueviolet;
+  width: 25%;
+  height: 40%;
+}
+
+.average-rating {
+  display: flex;
+  justify-content: center;
+  background-color: blueviolet;
+  width: 25%;
+  height: 40%;
 }
