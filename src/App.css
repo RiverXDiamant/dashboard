@@ -18,6 +18,7 @@ body {
 .dashboard {
   display: flex;
   justify-content: center;
+  align-items: center;
   background-color: aqua;
   width: 15vw;
   height: 95vh;
@@ -37,7 +38,7 @@ body {
   background-color: blueviolet;
   margin-left: 2%;
   width: 25%;
-  height: 40%;
+  height: 35%;
 }
 
 /* Website Visitors */
@@ -45,8 +46,24 @@ body {
 .website-visitors {
   display: flex;
   background-color: coral;
-  margin-top: 23%;
+  margin-top: 20%;
   margin-left: -79%;
   width: 79%;
-  height: 55%;
+  height: 61%;
+}
+
+.visitor-count {
+  margin-left: 10px;
+}
+.visitor-count > p {
+  margin-left: 50px;
+}
+.welcome {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(70, 102, 69);
+  margin-left: 15%;
+  width: 55rem;
+  height: 70%;
 }
