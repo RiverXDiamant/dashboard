@@ -43,7 +43,7 @@ body {
   display: flex;
   justify-content: center;
   text-align: center;
-  background-color: blueviolet;
+  background-color: rgba(0, 0, 0, 0.548);
   margin-top: 15px;
   margin-left: 2%;
   width: 25%;
@@ -54,7 +54,7 @@ body {
 
 .website-visitors {
   display: flex;
-  background-color: coral;
+  background-color: rgba(0, 0, 0, 0.548);
   margin-top: 20%;
   margin-left: -79%;
   width: 79%;
@@ -71,7 +71,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgb(70, 102, 69);
+  background-color: rgb(103, 109, 103);
   margin-left: 15%;
   width: 55rem;
   height: 70%;
