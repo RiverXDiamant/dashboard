@@ -3,6 +3,7 @@ import Sidebar from "./components/Sidebar";
 import Reviews from "./components/Reviews";
 import AverageRating from "./components/AverageRating";
 import SentimentAnalysis from "./components/SentimentAnalysis";
+import WebsiteVisitors from "./components/WebsiteVisitors";
 
 // css
 import "./App.css";
@@ -22,6 +23,9 @@ export default function App() {
         </div>
         <div className="sentiment-analysis">
           <SentimentAnalysis />
+        </div>
+        <div className="website-visitors">
+          <WebsiteVisitors />
         </div>
       </div>
     </>
