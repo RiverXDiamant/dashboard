@@ -1,15 +1,16 @@
 // components
 import Sidebar from "./components/Sidebar";
+import Reviews from "./components/Reviews";
 
 // css
 import "./App.css";
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <Sidebar />
-    </div>
+    <>
+      <div className="dashboard">
+        <Sidebar />
+      </div>
+    </>
   );
 }
-
-export default App;
