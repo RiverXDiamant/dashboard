@@ -32,6 +32,8 @@ body {
 .sidebar-list > p:hover {
   color: rgba(0, 8, 8, 0.438);
   font-weight: bold;
+  text-transform: uppercase;
+  font-size: 14px;
 }
 
 /* Reviews, Rating, Sentiment Analysis */
